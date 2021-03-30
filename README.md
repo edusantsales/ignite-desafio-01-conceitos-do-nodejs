@@ -26,7 +26,7 @@ O template está disponível na seguinte URL:
 
 Agora navegue até a pasta criada, abra no Visual Studio Code e por último abra o arquivo `index.js`. Lembre-se de executar o comando `yarn` no seu terminal para instalar todas as dependências e você terá o seguinte código:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f8032e9-d459-4c6f-a60f-d8c90fd9bc5a/Untitled.png](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F9f8032e9-d459-4c6f-a60f-d8c90fd9bc5a%2FUntitled.png?table=block&id=24fafc2d-f3d9-4f45-a5d5-6531a87c20e7&width=2560&userId=218540db-eba8-4a32-8da1-b29c703e9398&cache=v2)
+![image.png](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F9f8032e9-d459-4c6f-a60f-d8c90fd9bc5a%2FUntitled.png?table=block&id=24fafc2d-f3d9-4f45-a5d5-6531a87c20e7&width=2560&userId=218540db-eba8-4a32-8da1-b29c703e9398&cache=v2)
 
 ## Rotas da aplicação
 
@@ -135,7 +135,7 @@ Para completar todos os testes referentes à *todos* é necessário antes ter co
 
 **Observação:** O username deve ser enviado pelo header em uma propriedade chamada `username`:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5c538c34-498a-4789-9bb4-0f286d9b2cf2/Untitled.png](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5c538c34-498a-4789-9bb4-0f286d9b2cf2%2FUntitled.png?table=block&id=1e560d27-9a65-407c-81a6-5b1c1abe0d4f&width=1110&userId=218540db-eba8-4a32-8da1-b29c703e9398&cache=v2)
+![image2.png](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5c538c34-498a-4789-9bb4-0f286d9b2cf2%2FUntitled.png?table=block&id=1e560d27-9a65-407c-81a6-5b1c1abe0d4f&width=1110&userId=218540db-eba8-4a32-8da1-b29c703e9398&cache=v2)
 
 - **Should be able to list all user's todos**
 
