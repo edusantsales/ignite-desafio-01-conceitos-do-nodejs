@@ -178,16 +178,20 @@ describe('Todos', () => {
       })
       .set('username', userResponse.body.username);
 
+    const listResponse1 = await request(app)
+      .get('/todos')
+      .set('username', userResponse.body.username);
+
     await request(app)
       .delete(`/todos/${todo1Response.body.id}`)
       .set('username', userResponse.body.username)
       .expect(204);
 
-    const listResponse = await request(app)
+    const listResponse2 = await request(app)
       .get('/todos')
       .set('username', userResponse.body.username);
 
-    expect(listResponse.body).toEqual([]);
+    expect(listResponse1.body).not.toEqual(listResponse2.body);
   });
 
   it('should not be able to delete a non existing todo', async () => {
